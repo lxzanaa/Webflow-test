@@ -263,28 +263,12 @@
     margin: 0;
 }
 
-.right-btns {
-    display: flex;
-    justify-content: space-between;
-}
-
 .heart-like svg,
 .home svg,
 .button-down svg {
     stroke: white;
 }
 
-.right-download {
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    margin-top: auto;
-}
-
-.right-download p {
-    margin-right: 10px;
-}
 
 .right-head {
     display: flex;
