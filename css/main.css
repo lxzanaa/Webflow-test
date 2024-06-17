@@ -235,6 +235,57 @@
     padding: 30px;
 }
 
+.swiper-container {
+    width: 100%;
+    max-width: 710px;
+    height: 880px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+.right-head p {
+    margin: 0;
+}
+
+.right-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart-like svg,
+.home svg,
+.button-down svg {
+    stroke: white;
+}
+
+.right-download {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.right-download p {
+    margin-right: 10px;
+}
+
 .right-head {
     display: flex;
     align-items: center;
@@ -287,6 +338,7 @@
     justify-content: center;
     background-color: #fff;
 }
+
 .right-download {
     display: inline-flex;
     align-items: center;
@@ -348,9 +400,11 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
